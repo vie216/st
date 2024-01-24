@@ -91,38 +91,38 @@ char *termname = "st-256color";
  *
  *	stty tabs
  */
-unsigned int tabspaces = 8;
+unsigned int tabspaces = 4;
 
 /* bg opacity */
-float alpha = 1.0;
+float alpha = 0.8;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
 	"#10101a",
-	"#df2424",
-  "#24df24",
-	"#dfdf24",
-	"#4f4fdf",
-	"#5c3199",
-	"#309aba",
-	"#a0a0aa",
+	"#cf1414",
+	"#14cf14",
+	"#cfcf14",
+	"#3f3fcf",
+	"#623381",
+	"#108aaa",
+	"#90909a",
 
 	/* 8 bright colors */
 	"#40404a",
-	"#ff4444",
-	"#44ff44",
-	"#ffff44",
-	"#6f6fff",
-	"#7c51b9",
-	"#50bada",
-	"#efeff9",
+	"#ef3434",
+	"#34ef34",
+	"#efef34",
+	"#5f5fef",
+	"#8253a1",
+	"#40aaca",
+	"#dfdfe9",
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#868abc", /* default foreground colour */
-	"#141414", /* default background colour */
+	"#868aac", /* default foreground colour */
+	"#181818", /* default background colour */
 };
 
 
