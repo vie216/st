@@ -97,26 +97,27 @@ unsigned int tabspaces = 4;
 float alpha = 0.8;
 
 /* Terminal colors (16 first used in escape sequence) */
+/* Theme is a modified version of Neutron from https://gogh-co.github.io/Gogh */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"#10101a",
-	"#cf1414",
-	"#14cf14",
-	"#cfcf14",
-	"#3f3fcf",
-	"#623381",
-	"#108aaa",
-	"#90909a",
+	"#23252b",
+	"#b54036",
+	"#5ab977",
+	"#deb566",
+	"#6a7c93",
+	"#8253a1",
+	"#3f94a8",
+	"#e6e8ef",
 
 	/* 8 bright colors */
-	"#40404a",
-	"#ef3434",
-	"#34ef34",
-	"#efef34",
-	"#5f5fef",
+	"#23252b",
+	"#b54036",
+	"#5ab977",
+	"#deb566",
+	"#6a7c93",
 	"#8253a1",
-	"#40aaca",
-	"#dfdfe9",
+	"#3f94a8",
+	"#ebedf2",
 
 	[255] = 0,
 
