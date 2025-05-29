@@ -97,6 +97,10 @@ unsigned int tabspaces = 8;
 float alpha = 0.8;
 
 /* Terminal colors (16 first used in escape sequence) */
+/*
+ * Theme used:
+ * Modified version of neutron theme from https://gogh-co.github.io/Gogh
+ */
 static const char *colorname[] = {
 	/* 8 normal colors */
 	"black",
